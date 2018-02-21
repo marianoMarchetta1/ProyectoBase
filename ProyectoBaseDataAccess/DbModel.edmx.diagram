@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a187c3f63604073a41397d9e86b6b7c" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.CANLOG" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CATEGORIA" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CATEGORIA_PROGRAMA" Width="1.5" PointX="11.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CONF_PASSWORD_SESION" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FEATURE" Width="1.5" PointX="0.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FUNCION" Width="1.5" PointX="0.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FUNCIONALIDAD" Width="1.5" PointX="3" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOG_PLATAFORMA" Width="1.5" PointX="8.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MODO_EXCLUSIVO" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERFIL" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERFIL_GRUPO_WINDOWS" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERFIL_PRODUCTO" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERMISO_FUNCIONALIDAD" Width="1.5" PointX="11.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERMISO_USUARIO" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTO" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTO_CATEGORIA" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROGRAMA" Width="1.5" PointX="0.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCHEMA_MIGRATION_GRANTS_LOG" Width="1.5" PointX="13" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCHEMA_MIGRATION_LOG" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SECTOR" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SUCURSAL" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TIPO_DOCUMENTO" Width="1.5" PointX="13.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TIPO_PLATAFORMA" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ULTIMAS_PASSWORD" Width="1.5" PointX="5.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO_INICIO" Width="1.5" PointX="13.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO_PASSWORD" Width="1.5" PointX="5.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO_PERFIL" Width="1.5" PointX="8.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO_SUCURSAL" Width="1.5" PointX="14.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO_TERMINAL" Width="1.5" PointX="8.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ConciergeLogReporting" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CONF_PASSWORD_TYPE" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OperationLog" Width="1.5" PointX="15.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROGRAMA_PANTALLA" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RPT_Producto" Width="1.5" PointX="15.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RPT_Usuario" Width="1.5" PointX="10.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RPT_USUARIO_SUCURSAL" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tag" Width="1.5" PointX="15.75" PointY="16.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_CANLOG_TIPO_PLATAFORMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CANLOG_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CATEGORIA_PROGRAMA_CATEGORIA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTO_CATEGORIA_CATEGORIA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROGRAMA_PANTALLA_CATEGORIA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CATEGORIA_PROGRAMA_PROGRAMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FUNCIONALIDAD_FEATURE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FUNCIONALIDAD_FUNCION" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FUNCIONALIDAD_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FUNCIONALIDAD_PROGRAMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERMISO_FUNCIONALIDAD_FUNCIONALIDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERMISO_USUARIO_FUNCIONALIDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LOG_PLATAFORMA_TIPO_PLATAFORMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LOG_PLATAFORMA_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MODO_EXCLUSIVO_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MODO_EXCLUSIVO_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERFIL_PRODUCTO_PERFIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERMISO_FUNCIONALIDAD_PERFIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_PERFIL_PERFIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERFIL_PRODUCTO_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PERMISO_USUARIO_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTO_CATEGORIA_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTO_TIPO_PLATAFORMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROGRAMA_PANTALLA_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROGRAMA_PANTALLA_PROGRAMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__SCHEMA_MI__IdLog__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_SECTOR" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_TERMINAL_TIPO_PLATAFORMA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ULTIMAS_PASSWORD_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_PASSWORD_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_PERFIL_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_TERMINALR_USUARIO" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

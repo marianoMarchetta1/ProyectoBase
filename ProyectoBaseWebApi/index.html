@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" >
+<head>
+    <meta charset="utf-8" />
+    <title>Proyecto Base</title>
+
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/script.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet"/>
+</head>
+<body class="container">
+
+    <div ng-controller="MainController">
+
+        <table class="table">
+            <tr>
+                <td>Id</td>
+                <td>Nombre</td>
+            </tr>
+            <tr ng-repeat="usuario in usuarios">
+                <td>{{usuario.Id}}</td>
+                <td>{{usuario.Nombre}}</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
