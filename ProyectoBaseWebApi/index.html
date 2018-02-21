@@ -1,29 +1,35 @@
 ﻿<!DOCTYPE html>
-<html ng-app="app" >
+<html ng-app="appBase" >
 <head>
     <meta charset="utf-8" />
     <title>Proyecto Base</title>
 
-    <script src="Scripts/angular.js"></script>
-    <script src="Scripts/script.js"></script>
     <link href="Content/bootstrap.css" rel="stylesheet"/>
 </head>
-<body class="container">
+<body>
 
-    <div ng-controller="MainController">
-
-        <table class="table">
-            <tr>
-                <td>Id</td>
-                <td>Nombre</td>
-            </tr>
-            <tr ng-repeat="usuario in usuarios">
-                <td>{{usuario.Id}}</td>
-                <td>{{usuario.Nombre}}</td>
-            </tr>
-        </table>
-
+    <div class="block-ui-main">
+        <div ui-view="header"></div>
+        <div ui-view="content"></div>
+        <div ui-view="footer"></div>
     </div>
+
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    
+    <script src="Scripts/angular-block-ui.js"></script>
+    <script src="Scripts/angular-sanitize.js"></script>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+
+    <script src="app.js"></script>
+    <script src="Scripts/config-routing.js"></script>
+    <script src="index-controller.js"></script>
+
+    <script src="usuario/usuario-content-controller.js"></script>
+    <script src="usuario/usuario-footer-controller.js"></script>
+    <script src="usuario/usuario-header-controller.js"></script>
 
 </body>
 </html>

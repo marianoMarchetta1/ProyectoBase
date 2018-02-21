@@ -191,6 +191,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="anonymous-layout\anonymous-content.html" />
+    <Content Include="anonymous-layout\anonymous-footer.html" />
+    <Content Include="anonymous-layout\anonymous-header.html" />
+    <Content Include="anonymous-layout\pagenotfound.html" />
+    <Content Include="app.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\angular-block-ui.css" />
     <Content Include="Content\angular-block-ui.min.css" />
@@ -199,6 +204,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="index-controller.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-block-ui.js" />
     <Content Include="Scripts\angular-block-ui.min.js" />
@@ -207,6 +213,8 @@
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular-sanitize.js" />
     <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -245,7 +253,13 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\config-routing.js" />
+    <Content Include="usuario\usuario-content-controller.js" />
+    <Content Include="usuario\usuario-content.html" />
+    <Content Include="usuario\usuario-footer-controller.js" />
+    <Content Include="usuario\usuario-footer.html" />
+    <Content Include="usuario\usuario-header-controller.js" />
+    <Content Include="usuario\usuario-header.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
