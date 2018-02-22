@@ -30,22 +30,22 @@
                 }
             }
         })
-        .state('app', {
-            url: '/home',
-            views: {
-                'header': {
-                    templateUrl: '../usuario/usuario-header.html',
-                    controller: 'usuarioHeaderController'
-                },
-                'content': {
-                    templateUrl: '../usuario/usuario-content.html',
-                    controller: 'usuarioContentController'
-                },
-                'footer': {
-                    templateUrl: '../usuario/usuario-footer.html',
-                    controller: 'usuarioFooterController'
-                }
-            }
+        //.state('app', {
+        //    url: '/home',
+        //    views: {
+        //        'header': {
+        //            templateUrl: '../usuario/usuario-header.html',
+        //            controller: 'usuarioHeaderController'
+        //        },
+        //        'content': {
+        //            templateUrl: '../usuario/usuario-content.html',
+        //            controller: 'usuarioContentController'
+        //        },
+        //        'footer': {
+        //            templateUrl: '../usuario/usuario-footer.html',
+        //            controller: 'usuarioFooterController'
+        //        }
+        //    }
             //abstract: true,
             //views: {
             //    'header': {
@@ -77,7 +77,7 @@
             //        templateUrl: 'layout/footer.html?' + versionProvider.versionGuid
             //    }
             //}
-        })
+        //})
         .state('home', {
             url: '/home',
             views: {
