@@ -1,5 +1,5 @@
-﻿angular.module('appBase').controller('usuarioHeaderController', ['$scope', 
-    function ($scope) {
+﻿angular.module('appBase').controller('usuarioHeaderController', ['$scope', '$state',
+    function ($scope, $state) {
 
         var vm = this;
         //vm.queryUI = muebleFactory.getQueryUI();
@@ -17,6 +17,10 @@
         //    vm.queryUI.query.nombre = null;
         //    vm.queryUI.initialized = true;
         //}
+
+        $scope.go = function(state){
+            $state.go(state);
+        }
 
         vm.init();
     }]);

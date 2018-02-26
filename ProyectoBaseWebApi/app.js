@@ -2,7 +2,7 @@
 .run(['$rootScope', '$location', '$state', '$stateParams', '$timeout', 
     function ($rootScope, $location, $state, $stateParams, $timeout ) {
 
-        $state.go('home');
+        $state.go('app.home');
 
         //authServiceFactory.fillAuthData();
 

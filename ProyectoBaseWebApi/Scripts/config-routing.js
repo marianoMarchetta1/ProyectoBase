@@ -4,7 +4,7 @@
         var $state = $injector.get("$state");
 
         if ($location.$$path == '' || $location.$$path == '/')
-            $state.go("home", {}, {
+            $state.go('app.home', {}, {
                 location: false
             });
         else    
@@ -13,7 +13,8 @@
             });
     });
 
-    $urlRouterProvider.when('', '/home');
+   // $urlRouterProvider.otherwise('/');
+  //  $urlRouterProvider.when('', '/index.html');
 
     $stateProvider
         .state('pagenotfound', {          
@@ -30,22 +31,23 @@
                 }
             }
         })
-        //.state('app', {
-        //    url: '/home',
-        //    views: {
-        //        'header': {
-        //            templateUrl: '../usuario/usuario-header.html',
-        //            controller: 'usuarioHeaderController'
-        //        },
-        //        'content': {
-        //            templateUrl: '../usuario/usuario-content.html',
-        //            controller: 'usuarioContentController'
-        //        },
-        //        'footer': {
-        //            templateUrl: '../usuario/usuario-footer.html',
-        //            controller: 'usuarioFooterController'
-        //        }
-        //    }
+        .state('app', {
+            url: '/informacion',
+            views: {
+                'header': {
+                    templateUrl: '../usuario/usuario-header.html',
+                    controller: 'usuarioHeaderController'
+                },
+                'content': {
+                    templateUrl: '../usuario/usuario-content.html',
+                    controller: 'usuarioContentController'
+                },
+                'footer': {
+                    templateUrl: '../usuario/usuario-footer.html',
+                    controller: 'usuarioFooterController'
+                }
+            }
+        })
             //abstract: true,
             //views: {
             //    'header': {
@@ -77,9 +79,8 @@
             //        templateUrl: 'layout/footer.html?' + versionProvider.versionGuid
             //    }
             //}
-        //})
-        .state('home', {
-            url: '/home',
+        .state('app.home', {
+            url: '/inicio',
             views: {
                 'header': {
                     templateUrl: '../usuario/usuario-header.html',
