@@ -1,4 +1,4 @@
-﻿angular.module('appBase', ['ui.router', 'ngSanitize'])
+﻿angular.module('appBase', ['ui.router', 'ngSanitize', 'ui.bootstrap', 'blockUI'])
 .run(['$rootScope', '$location', '$state', '$stateParams', '$timeout', 
     function ($rootScope, $location, $state, $stateParams, $timeout ) {
 
@@ -19,3 +19,9 @@
         //        }
         //    });
 }])
+.constant('constants', {
+    apiServiceBaseUri: document.location.protocol + '//' + document.location.host + '/',
+    clientId: 'estudioBrown',
+    applicationName: 'Estudio Brown',
+    clientName: 'Estudio Brown'
+})

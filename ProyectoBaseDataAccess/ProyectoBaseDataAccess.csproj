@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\ContactoBusiness.cs" />
     <Compile Include="CANLOG.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
@@ -67,6 +68,7 @@
     <Compile Include="CONF_PASSWORD_TYPE.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataAccess\ContactoDataAccess.cs" />
     <Compile Include="DataAccess\UsuarioDataAccess.cs" />
     <Compile Include="DbModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -336,6 +338,7 @@
     <Compile Include="USUARIO_TERMINAL.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\MailViewModel.cs" />
     <Compile Include="ViewModel\UsuarioViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
