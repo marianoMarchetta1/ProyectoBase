@@ -10,5 +10,7 @@ namespace ProyectoBaseDataAccess.ViewModel
     {
         public string Nombre { get; set; }
         public string Comentario { get; set; }
+
+        public string Email { get; set; }
     }
 }

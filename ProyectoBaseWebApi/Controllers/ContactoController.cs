@@ -21,7 +21,7 @@ namespace ProyectoBaseWebApi.Controllers
             string subject = "El usuario " + mail.Nombre + " envio una consulta";
 
             ContactoBusiness contactoBusiness = new ContactoBusiness();
-            contactoBusiness.SendMail(subject, mailFrom, mailTo, body);
+            contactoBusiness.SendMail(subject, mail.Email, mailTo, body);
 
             return Ok(1);
         }
