@@ -1,4 +1,4 @@
-﻿angular.module('appBase').controller('penalViewController', ['$scope', 'penalFactory', 'parameters',
+﻿angular.module('appBase').controller('penalController', ['$scope', 'penalFactory', 'parameters',
     function ($scope, penalFactory, parameters) {
 
         var vm = this;

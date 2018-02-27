@@ -209,6 +209,10 @@
     <Content Include="Common\services\modal-dialog-errors.html" />
     <Content Include="Common\services\modal-dialog-service.js" />
     <Content Include="Common\services\modal-dialog.html" />
+    <Content Include="configuracion\civil\civil-config.js" />
+    <Content Include="configuracion\civil\civil-controller.js" />
+    <Content Include="configuracion\civil\civil-factory.js" />
+    <Content Include="configuracion\civil\civil.html" />
     <Content Include="configuracion\comercial\comercial-config.js" />
     <Content Include="configuracion\comercial\comercial-controller.js" />
     <Content Include="configuracion\comercial\comercial-factory.js" />
@@ -217,10 +221,10 @@
     <Content Include="configuracion\contacto\contacto-controller.js" />
     <Content Include="configuracion\contacto\contacto-factory.js" />
     <Content Include="configuracion\contacto\contacto.html" />
-    <Content Include="configuracion\penal-view\penal-view-config.js" />
-    <Content Include="configuracion\penal-view\penal-view-controller.js" />
-    <Content Include="configuracion\penal-view\penal-view-factory.js" />
-    <Content Include="configuracion\penal-view\penal-view.html" />
+    <Content Include="configuracion\penal\penal-config.js" />
+    <Content Include="configuracion\penal\penal-controller.js" />
+    <Content Include="configuracion\penal\penal-factory.js" />
+    <Content Include="configuracion\penal\penal.html" />
     <Content Include="Content\angular-block-ui.css" />
     <Content Include="Content\angular-block-ui.min.css" />
     <Content Include="Content\bootstrap-custom.css" />
