@@ -17,7 +17,7 @@ namespace ProyectoBaseWebApi.Controllers
         {
             string mailFrom = System.Configuration.ConfigurationManager.AppSettings["Mail.From"] != null ? System.Configuration.ConfigurationManager.AppSettings["Mail.From"].ToString() : "sao.arquitectura2017@gmail.com";
             string mailTo = System.Configuration.ConfigurationManager.AppSettings["Mail.To"] != null ? System.Configuration.ConfigurationManager.AppSettings["Mail.To"].ToString() : "mastronardi.romina@gmail.com";
-            string body = mail.Comentario;
+            string body = mail.Consulta;
             string subject = "El usuario " + mail.Nombre + " envio una consulta";
 
             ContactoBusiness contactoBusiness = new ContactoBusiness();

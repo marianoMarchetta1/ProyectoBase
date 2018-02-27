@@ -9,14 +9,14 @@
         }
 
         vm.send = function () {
-            //validar length del comentario
+            //validar length de la consulta
             blockUI.start();
             contactoFactory.send(vm.mail)
                 .then(function (value) {
                     if (value && value.list && value.list == "1") {
                         modalDialogService.showModalMessage('El mail ha sido enviado exitosamente.');
                         vm.mail.nombre = '';
-                        vm.mail.comentario = '';
+                        vm.mail.consulta = '';
                     }
                     else
                         modalDialogService.showModalFormErrors(["Error al enviar el mail."]);

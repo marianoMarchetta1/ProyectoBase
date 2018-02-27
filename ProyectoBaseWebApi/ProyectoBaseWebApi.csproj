@@ -209,6 +209,10 @@
     <Content Include="Common\services\modal-dialog-errors.html" />
     <Content Include="Common\services\modal-dialog-service.js" />
     <Content Include="Common\services\modal-dialog.html" />
+    <Content Include="configuracion\comercial\comercial-config.js" />
+    <Content Include="configuracion\comercial\comercial-controller.js" />
+    <Content Include="configuracion\comercial\comercial-factory.js" />
+    <Content Include="configuracion\comercial\comercial.html" />
     <Content Include="configuracion\contacto\contacto-config.js" />
     <Content Include="configuracion\contacto\contacto-controller.js" />
     <Content Include="configuracion\contacto\contacto-factory.js" />

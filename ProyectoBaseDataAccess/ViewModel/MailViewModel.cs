@@ -9,7 +9,7 @@ namespace ProyectoBaseDataAccess.ViewModel
     public class MailViewModel
     {
         public string Nombre { get; set; }
-        public string Comentario { get; set; }
+        public string Consulta { get; set; }
 
         public string Email { get; set; }
     }
